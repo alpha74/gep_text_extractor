@@ -1,5 +1,6 @@
 """
-	Using OpenCV.
+	Name: algo3.py
+	@alpha74
 """
 
 import cv2
