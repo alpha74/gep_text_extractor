@@ -10,5 +10,8 @@ Extract and parse latitude and longitude from screenshots of GEP, using OpenCV a
 
   **Cropped**:
   ![Portal Home Page](https://github.com/alpha74/gep_text_extractor/blob/master/images/s2.png)
+  
+  **OCR PyTesseract**
+  Output: 74.241590
 
 2. Apply `PyTesseract` OCR to get the text in the image.
