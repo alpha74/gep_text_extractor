@@ -2,8 +2,14 @@
 Extract and parse latitude and longitude from screenshots of GEP, using OpenCV and Python.
 
 
-## Steps of process:
-1. Use Python algorithms to crop an image just when the text starts to appear. Compare the I and II images.
+## Steps:
+1. Take screenshot of specified coordinates on screen.
+2. Use Python `OpenCV` image library to crop the image. 
+3. Cropping requires some self made observations and alogorithms( Compare the __Original__ and __Cropped Images__ images ).
+3. Apply `PyTesseract` OCR to get the text in the image.
+
+
+## Demo Images: 
 
   **Original**
   ![Portal Home Page](https://github.com/alpha74/gep_text_extractor/blob/master/images/s1.png)
@@ -13,5 +19,3 @@ Extract and parse latitude and longitude from screenshots of GEP, using OpenCV a
   
   **OCR PyTesseract**
   Output: 74.241590
-
-2. Apply `PyTesseract` OCR to get the text in the image.
