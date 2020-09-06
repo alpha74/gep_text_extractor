@@ -1,5 +1,6 @@
-# GEP Text Extractor
-Extract and parse latitude and longitude from screenshots of GEP, using OpenCV and Python.
+# Google Earth Pro Text Extractor
+- Extract and parse latitude and longitude from screenshots of Google Earth Pro, using OpenCV and Python. 
+- Used as a sub-module.
 
 
 ## Steps:
